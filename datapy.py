@@ -7,7 +7,7 @@ fieldnames.append("time")
 for i in f.get_dataSSID():
     fieldnames.append(i)
 
-
+#create a dataset of the SSID and the power Signal of each Wifi-Hotspot 
 with open('data.csv', 'w') as csv_file:
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     csv_writer.writeheader()
