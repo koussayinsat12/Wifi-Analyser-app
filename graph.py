@@ -6,7 +6,7 @@ from matplotlib.animation import FuncAnimation
 from itertools import count
 import tkinter as tk
 from tkinter import ttk
-# Create a dataset
+# Create a graph using the function graphy()
 def graphy():
         plt.style.use('seaborn-darkgrid')
         palette = plt.get_cmap('Set1')
