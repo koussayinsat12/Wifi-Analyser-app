@@ -3,6 +3,7 @@ from constants import po1
 import graph as g
 import sys
 import os
+# main will lunch the Desktop app
 def main():
     # Theme ( list of available themes : https://media.geeksforgeeks.org/wp-content/uploads/20200511200254/f19.jpg)
     sg.theme('LightGreen8')
